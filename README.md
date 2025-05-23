@@ -15,27 +15,31 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
     - a fogyasztóknál mérhető áramerősségeket és feszültségeket számolja ki
     - bináris fát használtam az áramkörök reprezentálására
 
-> [!NOTE]
-
-## Töltéses N-test szimuláció
-https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/egyszeru_szimulacio.mkv
-https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/taszitas.mkv
-https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/fiz_szim_javitott_1.mkv
-
-## Kisebb vizualizációk
-chat
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hsv_elektromos_ter.png)
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hejtetel.png)
-https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/hazi_animacio.mp4
-
-## Áramkörös feladatok
-chat
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/aramkor_binaris_fa.pdf)
 
 ## Harmonikus rezgőmozgás
-chat
+- [A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
+- [Magyarázóvideó](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/hazi_animacio.mp4)
+
 ![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/harmonikus_rezgomozgas.png)
-[A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
+
+## Töltéses N-test szimuláció
+videók:
+- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/egyszeru_szimulacio.mkv
+- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/taszitas.mkv
+- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/fiz_szim_javitott_1.mkv
+
+TODO: chat
+
+## Kisebb vizualizációk
+TODO: chat
+![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hsv_elektromos_ter.png)
+![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hejtetel.png)
+[egy kis animáció](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/hazi_animacio.mp4)
+
+## Áramkörös feladatok megoldása bináris fa reprezentáció alkalmazásával
+[a mellékelt pdf](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/aramkor_binaris_fa.pdf)
+TODO: chat
+
 
 ## Jövőbeli tervek:
 - egy nagyobb és hatékonyabb N-test szimuláció (quadtree struktúra használatával)
