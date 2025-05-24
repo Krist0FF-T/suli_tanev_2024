@@ -16,25 +16,38 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
     - bináris fát használtam az áramkörök reprezentálására
 
 
-## Harmonikus rezgőmozgás
+## Harmonikus rezgőmozgás (Desmos)
 - [A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
-- [Magyarázóvideó](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/hazi_animacio.mp4)
+- [Magyarázóvideó](temp_fizika/hazi_animacio.mp4)
 
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/harmonikus_rezgomozgas.png)
+![image](temp_fizika/harmonikus_rezgomozgas.png)
 
-## Töltéses N-test szimuláció
-videók:
-- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/egyszeru_szimulacio.mkv
-- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/taszitas.mkv
-- https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/fiz_szim_javitott_1.mkv
+## Töltéses N-test szimuláció (C++)
+- [videó 1](temp_fizika/egyszeru_szimulacio.mkv)
+- [videó 2 (taszítás)](temp_fizika/taszitas.mkv)
+- [videó 3 (javított)](temp_fizika/fiz_szim_javitott.mkv)
 
 TODO: chat
 
-## Kisebb vizualizációk
+![Demo](temp_fizika/fiz_szim.gif)
+
+## Kisebb vizualizációk (Python)
 TODO: chat
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hsv_elektromos_ter.png)
-![image](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/hejtetel.png)
-[egy kis animáció](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/hazi_animacio.mp4)
+
+#### Házi animáció
+Egy kis animáció [Manim](https://github.com/ManimCommunity/manim/)-mal az egyik egyszerű házifeladat megoldásáról.
+[Forráskód](temp_fizika/hazi_animacio.py)
+[Az animáció lassabban, jobb minőséggel](temp_fizika/hazi_animacio.mp4)
+![Demo](temp_fizika/hazi_animacio.gif)
+
+#### Elektromos tér
+Elektromos tér ábrázolása HSV színtérrel (mint a színkerék).
+![image](temp_fizika/hsv_elektromos_ter.png)
+
+#### Héjtétel
+Egyik órán felmerült, a homogén gömbök esetén a középpontjuk közötti távolsággal kell számolni a gravitációs erőt, és nem láttam, hogy ha felbontjuk sok kisebb testre, akkor az erővektorok összege miért lenne azonos, mintha a középpontjával számoltunk volna, így írtam egy kis programot, ami ezt ábrázolja, és kiszámolja. Utána megtaláltam a [héjtételt](https://hu.wikipedia.org/wiki/Gravit%C3%A1ci%C3%B3s_potenci%C3%A1l#G%C3%B6mbszimmetria), ami minden gömbileg szimmetrikus testre igazolja.
+
+![image](temp_fizika/hejtetel.png)
 
 ## Áramkörös feladatok megoldása bináris fa reprezentáció alkalmazásával
 [a mellékelt pdf](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/aramkor_binaris_fa.pdf)
