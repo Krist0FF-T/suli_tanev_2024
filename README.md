@@ -13,13 +13,13 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
 ![image](temp_fizika/harmonikus_rezgomozgas.png)
 
 ## Töltéses N-test szimuláció
-[Forráskód](temp_fizika/fiz_szim.cpp) (C++)
+[Forráskód](temp_fizika/fiz_szim.cpp) (C++ nyelven, az SFML multimédia könyvtár használatával)
 
 Videók: [videó 1](temp_fizika/egyszeru_szimulacio.mkv), [videó 2 (taszítás)](temp_fizika/taszitas.mkv), [videó 3 (javított)](temp_fizika/fiz_szim_javitott.mkv)
 
 ![gif](temp_fizika/fiz_szim.gif)
 
-## Kisebb vizualizációk (Python)
+## Kisebb vizualizációk
 ![image](temp_fizika/chat_kisebb.png)
 
 ### Házi animáció
