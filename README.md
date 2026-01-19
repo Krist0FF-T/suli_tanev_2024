@@ -7,17 +7,12 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
 # Fizika
 
 ## Rugó szimulátor
-TODO:
-- forráskód (Python, PyGame)
-- példák (pl. csatolt rezgés, inga lengésidő)
-- képek (az említett példákról, fejlesztésről)
+TODO: forráskód (Python, PyGame)
 
 Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
 
-(Jelenleg fejlesztés alatt.)
-
 ### Képek
-(TODO: szimulációk forráskódja, jobb alt szövegek)
+TODO: szimulációk forráskódja, jobb alt szövegek
 
 Különböző hosszúságú ingák lengése, lengésideje:
 <img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
