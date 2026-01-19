@@ -16,7 +16,19 @@ Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
 
 (Jelenleg fejlesztés alatt.)
 
+### Képek
+(TODO: szimulációk forráskódja, jobb alt szövegek)
+
+Különböző hosszúságú ingák lengése, lengésideje:
 <img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
+
+Csatolt rezgés:
+<img width="1920" height="1080" alt="20260119_06h18m38s_grim" src="https://github.com/user-attachments/assets/ab3ca60b-6851-4f28-a247-adfc716b1790" />
+
+Egyéb:
+<img width="1920" height="1080" alt="20260119_06h15m57s_grim" src="https://github.com/user-attachments/assets/f73379d3-4824-4830-9cd8-f009d9f460ca" />
+<img width="1920" height="1080" alt="20260119_06h08m40s_grim" src="https://github.com/user-attachments/assets/9e3bac1b-7191-4101-805f-020ee45346dd" />
+
 
 ## Harmonikus rezgőmozgás animáció
 TODO: statikus kép -> gif
