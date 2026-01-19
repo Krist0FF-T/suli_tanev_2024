@@ -171,6 +171,3 @@ https://github.com/user-attachments/assets/ffb29639-c39b-49dd-a62a-fa6442aad20b
 
 https://github.com/user-attachments/assets/4c37334b-8958-4bb5-86e1-01714a369f6e
 
-### Házi feladat látens diffúziómodellel
-TODO: prompt, alap kép, egyéb részletek, és persze a végeredmény(ek)
-
