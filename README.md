@@ -16,6 +16,8 @@ Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
 
 (Jelenleg fejlesztés alatt.)
 
+<img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
+
 ## Harmonikus rezgőmozgás animáció
 TODO: statikus kép -> gif
 
