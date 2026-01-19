@@ -167,7 +167,7 @@ TODO: a 2 animáció gif-ként, forráskód, YT link
 - [Program újraírása](https://www.youtube.com/watch?v=Pmu5Lj8mTVE) (YouTube videó)
 - [Forráskód és az elkészült animációk](https://github.com/Krist0FF-T/fractal_renderer) (GitHub repo)
 
-https://github.com/user-attachments/assets/ffb29639-c39b-49dd-a62a-fa6442aad20b
+https://github.com/user-attachments/assets/e323bc35-458e-4ba9-bd7d-179e8875ee65
 
-https://github.com/user-attachments/assets/4c37334b-8958-4bb5-86e1-01714a369f6e
+https://github.com/user-attachments/assets/c4f59d11-ec05-4634-9aff-ace791651d8a
 
