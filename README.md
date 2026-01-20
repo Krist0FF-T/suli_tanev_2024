@@ -7,12 +7,12 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
 # Fizika
 
 ## Rugó szimulátor
-TODO: forráskód (Python, PyGame)
+<!-- TODO: forráskód (Python, PyGame) -->
 
 Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
 
 ### Képek
-TODO: szimulációk forráskódja, jobb alt szövegek
+<!-- TODO: szimulációk forráskódja, jobb alt szövegek -->
 
 Különböző hosszúságú ingák lengése, lengésideje:
 <img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
@@ -26,7 +26,7 @@ Egyéb:
 
 
 ## Harmonikus rezgőmozgás animáció
-TODO: statikus kép -> gif
+<!-- TODO: statikus kép -> gif -->
 
 - [A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
 - [Magyarázóvideó](temp_fizika/harmonikus_rezgomozgas.mkv)
@@ -52,14 +52,14 @@ Egy kis animáció [Manim](https://github.com/ManimCommunity/manim/)-mal egy egy
 ![gif](temp_fizika/hazi_animacio.gif)
 
 ### Elektromos mezők
-TODO: forráskód (Python), magyarázat
+<!-- TODO: forráskód (Python), magyarázat -->
 
 Elektromos mezők ábrázolása HSV színtérrel (a színkerékhez hasonlóan).
 
 ![image](temp_fizika/hsv_elektromos_ter.png)
 
 ### Héjtétel
-TODO: forráskód (Python)
+<!-- TODO: forráskód (Python) -->
 
 Az egyik fizikaórán felmerült, a homogén gömbök esetén a középpontjuk közötti távolsággal kell számolni a gravitációs erőt, és nem láttam, hogy ha felbontjuk sok kisebb testre, akkor az erővektorok összege miért lenne azonos, mintha az egész test középpontjával számoltunk volna, így írtam egy kis programot, ami ezt ábrázolja, és kiszámolja. Utána megtaláltam a [héjtételt](https://hu.wikipedia.org/wiki/Gravit%C3%A1ci%C3%B3s_potenci%C3%A1l#G%C3%B6mbszimmetria) is, ami minden gömbileg szimmetrikus testre igazolja.
 
@@ -67,7 +67,7 @@ Az egyik fizikaórán felmerült, a homogén gömbök esetén a középpontjuk k
 
 ## Áramkörös feladatok megoldása bináris fa reprezentáció alkalmazásával
 ### a) Egyszerűbb
-TODO: forráskód, példák
+<!-- TODO: forráskód, példák -->
 
 Ezen segédkönyvtár segítségével olyan áramkörös feladatokat lehet megoldani, amiben
 - ismertek a fogyasztók ellenállásai
@@ -83,7 +83,7 @@ Működése:
 ![image](temp_fizika/chat_aramkor.png)
 
 ### b) Összetettebb
-TODO: alap ötlet, eddigi forráskód (Python)
+<!-- TODO: alap ötlet, eddigi forráskód (Python) -->
 
 (A fejlesztés szünetel.)
 
@@ -102,7 +102,7 @@ TODO: alap ötlet, eddigi forráskód (Python)
 Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sokat csináltam - csak egy egyenletábrázolót. Ezen kívül esetleg másodfokú polinomok gyökeit kiszámomló programot lehetett volna, de Python-ban 1 sorban meg lehet (meg tudom) oldani (tehát programozási szempontból tényleg elég egyszerű)
 
 ## Egyenletábrázoló
-TODO: forráskód, példák, LaTeX
+<!-- TODO: forráskód, példák, LaTeX -->
 
 ### Működése
 - minden pixelnél kiszámolja az egyenlet két oldalának értékét x és y behelyettesítésével és e 2 érték különbsége alapján színezi be
@@ -115,7 +115,7 @@ TODO: forráskód, példák, LaTeX
 ### Egy egyszerű példa
 <img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_sin_cos.png"/>
 
-TODO: LaTeX, színes körök (piros, kék, szürke)
+<!-- TODO: LaTeX, színes körök (piros, kék, szürke) -->
 
 - y = sin(x)
     - (piros)
@@ -132,7 +132,7 @@ TODO: LaTeX, színes körök (piros, kék, szürke)
 ### Egyenletarc
 <img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_face.png"/>
 
-TODO: képletek LaTeX-el, színes körök
+<!-- TODO: képletek LaTeX-el, színes körök -->
 
 (Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni.)
 
@@ -163,7 +163,8 @@ TODO: képletek LaTeX-el, színes körök
         - ahol alfa = arctan(y/x)
 
 ### Fraktál görbe animáció renderelő
-TODO: a 2 animáció gif-ként, forráskód, YT link
+<!-- TODO: a 2 animáció gif-ként, forráskód, YT link -->
+
 - [Program újraírása](https://www.youtube.com/watch?v=Pmu5Lj8mTVE) (YouTube videó)
 - [Forráskód és az elkészült animációk](https://github.com/Krist0FF-T/fractal_renderer) (GitHub repo)
 
