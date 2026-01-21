@@ -4,6 +4,16 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
 > [!NOTE]
 > Feltöltés és bemutatás folyamatban...
 
+Tartalom:
+- [Fizika](#fizika)
+    - [Rugószimulátor](#rugószimulátor)
+    - [Harmonikus rezgőmozgás animáció](#harmonikus-rezgőmozgás-animáció)
+    - [Töltéses N-test-szimuláció](#töltéses-n-test-szimuláció)
+    - [Áramkörös feladatmegoldó](#áramkörös-feladatmegoldó)
+    - [Jövőbeli tervek](#jövőbeli-tervek)
+- [Matematika](#matematika) - [Egyenletábrázoló](#egyenletábrázoló)
+- [Rajz](#rajz) - [Fraktál görbe animáció](#fraktál-görbe-animáció-renderelő)
+
 # Fizika
 
 ## Rugószimulátor
@@ -33,7 +43,7 @@ Egy egyszerű, Euler-féle módszert alkalmazó rugószimulátor.
 
 <img width="1366" height="768" alt="harmonikus_rezgomozgas" src="https://github.com/user-attachments/assets/f05a6fc9-0d69-4a73-92d9-e5131bbb93eb" />
 
-## Töltéses N-test szimuláció
+## Töltéses N-test-szimuláció
 [Forráskód](temp_fizika/fiz_szim.cpp) (C++ nyelven, az SFML multimédia könyvtár használatával)
 
 ![fiz_szim](https://github.com/user-attachments/assets/1d25ee20-fe27-41a7-9fd5-9040cb125b57)
@@ -72,7 +82,7 @@ Az egyik fizikaórán felmerült, a homogén gömbök esetén a középpontjuk k
 
 <img width="1920" height="1080" alt="hejtetel" src="https://github.com/user-attachments/assets/6189ad61-92e7-4132-b864-0c482ca6bd64" />
 
-## Áramkörös feladatok megoldása bináris fa reprezentáció alkalmazásával
+## Áramkörös feladatmegoldó
 ### a) Egyszerűbb
 <!-- TODO: forráskód, példák -->
 
