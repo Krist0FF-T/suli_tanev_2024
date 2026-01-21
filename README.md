@@ -115,24 +115,19 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
 ### Egy egyszerű példa
 <img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_sin_cos.png"/>
 
-<!-- TODO: LaTeX, színes körök (piros, kék, szürke) -->
+<!-- TODO: LaTeX -->
 
-- y = sin(x)
-    - (piros)
-- y = cos(x)
-    - (kék)
-- sin(x * pi) = 0
-    - (függőleges)
-- sin(y * pi) = 0
-    - (vízszintes)
-
+- 🔴 y = sin(x)
+- 🔵 y = cos(x)
+- ⚪ sin(x * pi) = 0 (függőleges)
+- ⚪ sin(y * pi) = 0 (vízszintes)
 
 # Rajz
 
 ### Egyenletarc
 <img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_face.png"/>
 
-<!-- TODO: képletek LaTeX-el, színes körök -->
+<!-- TODO: képletek LaTeX-el -->
 
 (Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni.)
 
