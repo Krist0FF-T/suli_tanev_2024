@@ -6,31 +6,30 @@ Ez a monorepo a 2024-25-ös tanévi (10. osztály) iskolai tananyaggal kapcsolat
 
 # Fizika
 
-## Rugó szimulátor
+## Rugószimulátor
 <!-- TODO: forráskód (Python, PyGame) -->
 
-Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
+Egy egyszerű, Euler-féle módszert alkalmazó rugószimulátor.
 
 ### Képek
-<!-- TODO: szimulációk forráskódja, jobb alt szövegek -->
+<!-- TODO: szimulációk forráskódja -->
 
 #### Különböző hosszúságú ingák lengése, lengésideje
-<img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
+<img width="1920" height="1080" alt="ingák lengésideje" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
 
 #### Csatolt rezgés
-<img width="1920" height="1080" alt="20260119_06h18m38s_grim" src="https://github.com/user-attachments/assets/ab3ca60b-6851-4f28-a247-adfc716b1790" />
+<img width="1920" height="1080" alt="csatolt rezgés" src="https://github.com/user-attachments/assets/ab3ca60b-6851-4f28-a247-adfc716b1790" />
 
 #### Egyéb
 
-<img width="1920" height="1080" alt="20260119_06h15m57s_grim" src="https://github.com/user-attachments/assets/f73379d3-4824-4830-9cd8-f009d9f460ca" />
-<img width="1920" height="1080" alt="20260119_06h08m40s_grim" src="https://github.com/user-attachments/assets/9e3bac1b-7191-4101-805f-020ee45346dd" />
+<img width="1920" height="1080" alt="oszlopok hajlása teher alatt" src="https://github.com/user-attachments/assets/f73379d3-4824-4830-9cd8-f009d9f460ca" />
+<img width="1920" height="1080" alt="rúd hajlása" src="https://github.com/user-attachments/assets/9e3bac1b-7191-4101-805f-020ee45346dd" />
 
 
 ## Harmonikus rezgőmozgás animáció
-<!-- TODO: statikus kép -> gif -->
+<!-- TODO: statikus kép -> videó -->
 
-- [A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
-- [Magyarázóvideó](temp_fizika/harmonikus_rezgomozgas.mkv)
+[A Desmos grafikon](https://www.desmos.com/calculator/n7aijnefve)
 
 <img width="1366" height="768" alt="harmonikus_rezgomozgas" src="https://github.com/user-attachments/assets/f05a6fc9-0d69-4a73-92d9-e5131bbb93eb" />
 
@@ -95,8 +94,6 @@ Ebben a változatban nem szükséges minden fogyasztó ellenállásának az isme
 
 (A fejlesztés szünetel.)
 
-### Kicsit összetetteb
-
 ## Jövőbeli tervek:
 - egy nagyobb és hatékonyabb N-test szimuláció (quadtree struktúra használatával)
 - oktatóvideók készítése Manim-mal
@@ -107,7 +104,6 @@ Ebben a változatban nem szükséges minden fogyasztó ellenállásának az isme
 
 
 # Matematika
-Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sokat csináltam - csak egy egyenletábrázolót. Ezen kívül esetleg másodfokú polinomok gyökeit kiszámomló programot lehetett volna, de Python-ban 1 sorban meg lehet (meg tudom) oldani (tehát programozási szempontból tényleg elég egyszerű)
 
 ## Egyenletábrázoló
 <!-- TODO: forráskód, példák, LaTeX -->
@@ -130,14 +126,13 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
 - ⚪ sin(x * pi) = 0 (függőleges)
 - ⚪ sin(y * pi) = 0 (vízszintes)
 
-# Rajz
 
 ### Egyenletarc
 <img width="3840" height="2160" alt="eq_face" src="https://github.com/user-attachments/assets/ed9a453d-895d-45d8-a1cd-2f5d3a898015" />
 
 <!-- TODO: képletek LaTeX-el -->
 
-(Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni..)
+(A szája sehogy se akar jól kinézni..)
 
 Ábrázolt egyenletek:
 - 🔴 |y - 0.6| = -cos(x), ha |x| < 6
@@ -149,6 +144,8 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
         - ahol alfa = arctan(y/x)
 - 🟡 sin((x - y) * 4) = 0, ha rh < do < rf
 - ⚪ sin(x * pi) = 0 vagy sin(y * pi) = 0
+
+# Rajz
 
 ### Fraktál görbe animáció renderelő
 <!-- TODO: a 2 animáció gif-ként, forráskód, YT link -->
