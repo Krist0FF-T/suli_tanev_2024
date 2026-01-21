@@ -151,14 +151,10 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
     - (+ egy halvány négyzetrács a feljebb említett módszerrel)
 
 - ahol:
-    - ysz = 0.6
-        - (szemek magassága)
-    - dsz = sqrt((|x| - pi)^2 + (y - ysz)^2)
-        - (távolság a jobb/bal szem középpontjától)
-    - do = sqrt(x^2 + y^2)
-        - (távolság az origótól)
-    - rf = 6
-        - (fej sugara)
+    - ysz = 0.6 = a szemek magassága
+    - dsz = sqrt((|x| - pi)^2 + (y - ysz)^2) = a kisebbik távolság a szemek középpontjaitól
+    - do = sqrt(x^2 + y^2) = távolság az origótól
+    - rf = 6 = a fej sugara
     - rh = rf - max(0, (|sin(pi/2 * x + 0.3)| + rf/2) * sin(alfa))
         - ahol alfa = arctan(y/x)
 
