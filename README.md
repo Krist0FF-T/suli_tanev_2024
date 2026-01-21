@@ -137,15 +137,15 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
 (Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni.)
 
 - ábrázolt egyenletek:
-    - piros (szem körvonal):
+    - 🔴 szem körvonal:
         - |y - ysz| = -cos(x)
         - ha |x| < 6 (hogy a fejen kívül ne ismétlődjön)
-    - kék (pupilla):
+    - 🔵 pupilla:
         - dsz^2 = dsz * sqrt(2)/2
-    - zöld (fej és haj körvonal):
+    - 🟢 fej és haj körvonal:
         - do = rf
         - do = rh
-    - sárga (haj besatírozása):
+    - 🟡 haj besatírozása:
         - sin((x - y) * 4) = 0
         - ha rh < do < rf
     - (+ egy halvány négyzetrács a feljebb említett módszerrel)
