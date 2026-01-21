@@ -131,27 +131,16 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
 
 (Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni.)
 
-- ábrázolt egyenletek:
-    - 🔴 szem körvonal:
-        - |y - ysz| = -cos(x)
-        - ha |x| < 6 (hogy a fejen kívül ne ismétlődjön)
-    - 🔵 pupilla:
-        - dsz^2 = dsz * sqrt(2)/2
-    - 🟢 fej és haj körvonal:
-        - do = rf
-        - do = rh
-    - 🟡 haj besatírozása:
-        - sin((x - y) * 4) = 0
-        - ha rh < do < rf
-    - (+ egy halvány négyzetrács a feljebb említett módszerrel)
-
-- ahol:
-    - ysz = 0.6 = a szemek magassága
-    - dsz = sqrt((|x| - pi)^2 + (y - ysz)^2) = a kisebbik távolság a szemek középpontjaitól
-    - do = sqrt(x^2 + y^2) = távolság az origótól
-    - rf = 6 = a fej sugara
+Ábrázolt egyenletek:
+- 🔴 |y - 0.6| = -cos(x), ha |x| < 6
+- 🔵 dsz^2 = dsz * sqrt(2)/2
+    - ahol dsz = sqrt((|x| - pi)^2 + (y - ysz)^2)
+- 🟢 do = 6 vagy do = rh
+    - ahol do = sqrt(x^2 + y^2)
     - rh = rf - max(0, (|sin(pi/2 * x + 0.3)| + rf/2) * sin(alfa))
         - ahol alfa = arctan(y/x)
+- 🟡 sin((x - y) * 4) = 0, ha rh < do < rf
+- ⚪ sin(x * pi) = 0 vagy sin(y * pi) = 0
 
 ### Fraktál görbe animáció renderelő
 <!-- TODO: a 2 animáció gif-ként, forráskód, YT link -->
