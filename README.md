@@ -70,7 +70,7 @@ Az egyik fizikaórán felmerült, a homogén gömbök esetén a középpontjuk k
 <!-- TODO: forráskód, példák -->
 
 Ezen segédkönyvtár segítségével olyan áramkörös feladatokat lehet megoldani, amiben
-- ismertek a fogyasztók ellenállásai
+- ismert az összes fogyasztó ellenállása
 - legalább egy feszültség/áramerősség/teljesítmény ismert
 
 Működése:
@@ -84,6 +84,8 @@ Működése:
 
 ### b) Összetettebb
 <!-- TODO: alap ötlet, eddigi forráskód (Python) -->
+
+Ebben a változatban nem szükséges minden fogyasztó ellenállásának az ismerete.
 
 (A fejlesztés szünetel.)
 
