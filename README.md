@@ -14,13 +14,14 @@ Egy egyszerű, Euler-féle módszert alkalmazó rugó szimulátor.
 ### Képek
 <!-- TODO: szimulációk forráskódja, jobb alt szövegek -->
 
-Különböző hosszúságú ingák lengése, lengésideje:
+#### Különböző hosszúságú ingák lengése, lengésideje
 <img width="1920" height="1080" alt="504382480_1899999524111179_6884895177976346556_n" src="https://github.com/user-attachments/assets/01830560-ed59-4a32-8ad7-cd43ba9bb9b5" />
 
-Csatolt rezgés:
+#### Csatolt rezgés
 <img width="1920" height="1080" alt="20260119_06h18m38s_grim" src="https://github.com/user-attachments/assets/ab3ca60b-6851-4f28-a247-adfc716b1790" />
 
-Egyéb:
+#### Egyéb
+
 <img width="1920" height="1080" alt="20260119_06h15m57s_grim" src="https://github.com/user-attachments/assets/f73379d3-4824-4830-9cd8-f009d9f460ca" />
 <img width="1920" height="1080" alt="20260119_06h08m40s_grim" src="https://github.com/user-attachments/assets/9e3bac1b-7191-4101-805f-020ee45346dd" />
 
@@ -31,14 +32,23 @@ Egyéb:
 - [A Desmos grafikon linkje](https://www.desmos.com/calculator/n7aijnefve)
 - [Magyarázóvideó](temp_fizika/harmonikus_rezgomozgas.mkv)
 
-![image](temp_fizika/harmonikus_rezgomozgas.png)
+<img width="1366" height="768" alt="harmonikus_rezgomozgas" src="https://github.com/user-attachments/assets/f05a6fc9-0d69-4a73-92d9-e5131bbb93eb" />
 
 ## Töltéses N-test szimuláció
 [Forráskód](temp_fizika/fiz_szim.cpp) (C++ nyelven, az SFML multimédia könyvtár használatával)
 
-Videók: [videó 1](temp_fizika/egyszeru_szimulacio.mkv), [videó 2 (taszítás)](temp_fizika/taszitas.mkv), [videó 3 (javított)](temp_fizika/fiz_szim_javitott.mkv)
+![fiz_szim](https://github.com/user-attachments/assets/1d25ee20-fe27-41a7-9fd5-9040cb125b57)
 
-![gif](temp_fizika/fiz_szim.gif)
+<details>
+<summary>Videók</summary>
+
+https://github.com/user-attachments/assets/9c8cf477-03d7-4796-b6bb-0b3e20c8a4b7
+
+https://github.com/user-attachments/assets/c0648e96-5014-4077-8eb2-e0fe35c8b88e
+
+https://github.com/user-attachments/assets/7b2f5075-5254-4649-8959-c6deb0f0236d
+
+</details>
 
 ## Kisebb vizualizációk
 
@@ -47,23 +57,21 @@ Egy kis animáció [Manim](https://github.com/ManimCommunity/manim/)-mal egy egy
 
 [Forráskód](temp_fizika/hazi_animacio.py) (Python)
 
-[Az animáció lassabban, jobb minőséggel](temp_fizika/hazi_animacio.mp4)
-
-![gif](temp_fizika/hazi_animacio.gif)
+https://github.com/user-attachments/assets/e1312346-0c4f-4664-9e6e-5ed8896fc496
 
 ### Elektromos mezők
 <!-- TODO: forráskód (Python), magyarázat -->
 
 Elektromos mezők ábrázolása HSV színtérrel (a színkerékhez hasonlóan).
 
-![image](temp_fizika/hsv_elektromos_ter.png)
+<img width="1920" height="1080" alt="hsv elektromos tér" src="https://github.com/user-attachments/assets/6aaedbf0-38d9-48e5-9db8-749e31c13915" />
 
 ### Héjtétel
 <!-- TODO: forráskód (Python) -->
 
 Az egyik fizikaórán felmerült, a homogén gömbök esetén a középpontjuk közötti távolsággal kell számolni a gravitációs erőt, és nem láttam, hogy ha felbontjuk sok kisebb testre, akkor az erővektorok összege miért lenne azonos, mintha az egész test középpontjával számoltunk volna, így írtam egy kis programot, ami ezt ábrázolja, és kiszámolja. Utána megtaláltam a [héjtételt](https://hu.wikipedia.org/wiki/Gravit%C3%A1ci%C3%B3s_potenci%C3%A1l#G%C3%B6mbszimmetria) is, ami minden gömbileg szimmetrikus testre igazolja.
 
-![image](temp_fizika/hejtetel.png)
+<img width="1920" height="1080" alt="hejtetel" src="https://github.com/user-attachments/assets/6189ad61-92e7-4132-b864-0c482ca6bd64" />
 
 ## Áramkörös feladatok megoldása bináris fa reprezentáció alkalmazásával
 ### a) Egyszerűbb
@@ -78,9 +86,7 @@ Működése:
 2. az ismert adat és megfelelő fogyasztó ellenállása alapján az összes feszültség kiszámolása
 3. szükség esetén egyéb adatok kiszámolása az ismert ellenállások és kiszámolt feszültségek alapján
 
-[a mellékelt pdf](https://github.com/Krist0FF-T/suli_tanev_2024/blob/main/temp_fizika/aramkor_binaris_fa.pdf)
-
-![image](temp_fizika/chat_aramkor.png)
+[aramkor_binaris_fa.pdf](https://github.com/user-attachments/files/24768709/aramkor_binaris_fa.pdf)
 
 ### b) Összetettebb
 <!-- TODO: alap ötlet, eddigi forráskód (Python) -->
@@ -115,7 +121,7 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
     - (több egyenlet ábrázolásánál kicsit bonyolultabb)
 
 ### Egy egyszerű példa
-<img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_sin_cos.png"/>
+<img width="1920" height="1080" alt="eq_sin_cos" src="https://github.com/user-attachments/assets/785f7673-3fb5-4404-a307-e2a0e8a0b77a" />
 
 <!-- TODO: LaTeX -->
 
@@ -127,11 +133,11 @@ Kicsit ironikusan talán, de az idei matematika tananyaggal kapcsolatban nem sok
 # Rajz
 
 ### Egyenletarc
-<img src="https://github.com/Krist0FF-T/ttk_talentum/blob/main/images/eq_face.png"/>
+<img width="3840" height="2160" alt="eq_face" src="https://github.com/user-attachments/assets/ed9a453d-895d-45d8-a1cd-2f5d3a898015" />
 
 <!-- TODO: képletek LaTeX-el -->
 
-(Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni.)
+(Végül máshogy oldottam meg, és azóta sem fejeztem be. A szája sehogy se akar jól kinézni..)
 
 Ábrázolt egyenletek:
 - 🔴 |y - 0.6| = -cos(x), ha |x| < 6
