@@ -109,49 +109,39 @@ Ebben a változatban nem szükséges minden fogyasztó ellenállásának az isme
 <!-- TODO: forráskód, példák, LaTeX -->
 
 ### Működése
-- minden pixelnél kiszámolja az egyenlet két oldalának értékét x és y behelyettesítésével és e 2 érték különbsége alapján színezi be
-- világosság (0..1) = 1 / (1 + 10d) ^ 2
-    - (ahol "d" a két oldal különbségének az abszolútértéke)
-    - így ha d=0, akkor 1 (100%), és ahogy d nő, egyre sötétül
+- minden pixelnél kiszámolja az egyenlet két oldalának $d$ különbségét $x$ és $y$ behelyettesítésével és ez alapján színezi be
+- világosság (0..1) = $(1 + 10|d|)^{-2}$
+    - így ha $d=0$, akkor 1 (100%), és ahogy $d$ nő, egyre sötétül
     - (általában ezt használtam, vagy ehhez hasonlót)
     - (több egyenlet ábrázolásánál kicsit bonyolultabb)
 
 ### Egy egyszerű példa
 <img width="1920" height="1080" alt="eq_sin_cos" src="https://github.com/user-attachments/assets/785f7673-3fb5-4404-a307-e2a0e8a0b77a" />
 
-<!-- TODO: LaTeX -->
-
-- 🔴 y = sin(x)
-- 🔵 y = cos(x)
-- ⚪ sin(x * pi) = 0 (függőleges)
-- ⚪ sin(y * pi) = 0 (vízszintes)
-
+- 🔴 $y = \sin(x)$
+- 🔵 $y = \cos(x)$
+- ⚪ $\sin(x \cdot \pi) = 0$ (függőleges)
+- ⚪ $\sin(y \cdot \pi) = 0$ (vízszintes)
 
 ### Egyenletarc
 <img width="3840" height="2160" alt="eq_face" src="https://github.com/user-attachments/assets/ed9a453d-895d-45d8-a1cd-2f5d3a898015" />
 
-<!-- TODO: képletek LaTeX-el -->
-
-(A szája sehogy se akar jól kinézni..)
-
 Ábrázolt egyenletek:
-- 🔴 |y - 0.6| = -cos(x), ha |x| < 6
-- 🔵 dsz^2 = dsz * sqrt(2)/2
-    - ahol dsz = sqrt((|x| - pi)^2 + (y - ysz)^2)
-- 🟢 do = 6 vagy do = rh
-    - ahol do = sqrt(x^2 + y^2)
-    - rh = rf - max(0, (|sin(pi/2 * x + 0.3)| + rf/2) * sin(alfa))
-        - ahol alfa = arctan(y/x)
-- 🟡 sin((x - y) * 4) = 0, ha rh < do < rf
-- ⚪ sin(x * pi) = 0 vagy sin(y * pi) = 0
+- 🔴 $|y - 0.6| = -\cos(x)$ ha $|x| < 6$
+- 🔵 $\sqrt{(|x| - \pi)^2 + (y - 0.6)^2} = \sqrt{2}/2$
+- 🟢 $r = 6$ vagy $r = r_h$
+    - ahol $r = \sqrt{x^2 + y^2}$
+    - $r_h = 6 - max(0, 3+|\sin(\alpha)sin(x \cdot \pi/2 + 0.3)|)$
+        - ahol $\alpha = \arctan(y/x)$
+- 🟡 $\sin(4x - 4y) = 0$ ha $r_h < r < 6$
+- ⚪ $\sin(x \cdot \pi) = 0$ vagy $\sin(y \cdot \pi) = 0$
 
 # Rajz
 
 ### Fraktál görbe animáció renderelő
-<!-- TODO: a 2 animáció gif-ként, forráskód, YT link -->
 
 - [Program újraírása](https://www.youtube.com/watch?v=Pmu5Lj8mTVE) (YouTube videó)
-- [Forráskód és az elkészült animációk](https://github.com/Krist0FF-T/fractal_renderer) (GitHub repo)
+- [Forráskód](https://github.com/Krist0FF-T/fractal_renderer) (GitHub repo)
 
 https://github.com/user-attachments/assets/05c421a9-01ce-4efd-bacb-211b7c4cfdfa
 
